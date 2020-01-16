@@ -14,15 +14,13 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(words)
-  t = nil
   words.map do |word|
     if word.count > 4
-      t = true
+    true
     else
-      t = false
+    false
     end
   end
-  t
 end
 
 def find_the_cheese# code an argument here
