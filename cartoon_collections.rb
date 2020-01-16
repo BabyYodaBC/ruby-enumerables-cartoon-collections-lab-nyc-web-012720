@@ -16,11 +16,12 @@ end
 def long_planeteer_calls(words)
   words.map do |word|
     if word.length > 4
-      true
+      t = true
     else
-      false
+      t = false
     end
   end
+  t
 end
 
 def find_the_cheese# code an argument here
