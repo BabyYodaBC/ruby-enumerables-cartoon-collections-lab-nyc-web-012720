@@ -16,7 +16,7 @@ end
 def long_planeteer_calls(words)
   t = 0
   words.map do |word|
-    if word.length <= 4
+    if word.count <= 4
       t = false
     else
       t = true
